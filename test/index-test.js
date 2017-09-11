@@ -54,6 +54,6 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase()
 }
-if(sayHiToGrandma('hello').toLowerCase === sayHiToGrandma(string)) {
+if(sayHiToGrandma(string).toLowerCase === sayHiToGrandma('hello')) {
   return (sayHiToGrandma.toLowerCase())
 }
